@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cairo:wght@200;300;500;700;900&family=Inconsolata&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;1,400;1,700&display=swap');
+
+* {
+          margin: 0;
+          padding: 0;
+          font-family: 'Barlow Semi Condensed', sans-serif;
+          font-size: 13px;
+}
+
+body {
+          background: hsl(0, 0%, 81%);
+          margin: 0;
+          padding: 0;
+}
+
+.container {
+          display: grid;
+          grid-template-rows: auto auto auto auto;
+          grid-row-gap: 50px;
+          margin-bottom: 0px;
+          height: 630px;
+          width: 90%;
+}
+
+.Danial {
+          background: hsl(263, 55%, 52%);
+          width: 550px;
+          margin: 70px;
+          color: white;
+          padding: 30px;
+          border-radius: 15px;
+          margin-top: 0px;
+          transform: translateY(-60px);
+          margin-left: 30px;
+}
+
+.back {
+          width: 80px;
+          transform: translateX(520px) translateY(230px);
+          color: white;
+}
+
+.logo {
+          transform: translateY(-60px) translateX(70px);
+}
+
+.image {
+          border-radius: 50%;
+          border: solid white;
+}
+
+.opa {
+          opacity: 50%;
+}
+
+
+.company_name {
+          transform: translateX(70px) translateY(-50px);
+}
+
+.m {
+          font-weight: 600;
+          transform: translateY(-30px);
+          margin: 10px;
+          font-size: 20px;
+}
+
+.jonathan {
+          transform: translate(650px, -510px);
+          width: 300px;
+          background: hsl(217, 19%, 35%);
+          padding: 30px;
+          border-radius: 15px;
+          height: 275px;
+          color: white;
+}
+
+.opac {
+          opacity: 70%;
+}
+
+.jeanette {
+          width: 300px;
+          padding: 30px;
+          border-radius: 15px;
+          background-color: hsl(0, 0%, 100%);
+          color: black;
+          transform: translateX(25px) translateY(-540px);
+}
+
+.patrik {
+          transform: translateY(-850px) translateX(420px);
+          width: 530px;
+          background-color: hsl(219, 29%, 14%);
+          color: white;
+          border-radius: 15px;
+          padding: 30px;
+          height: 200px;
+}
+
+.kira {
+          width: 250px;
+          background-color: hsl(0, 0%, 100%);
+          color: black;
+          border-radius: 15px;
+          transform: translateX(1030px) translateY(-1530px);
+          padding: 10px;
+          height: 620px;
+}
+
+.attribution {
+          font-size: 11px;
+          text-align: center;
+}
+
+.attribution a {
+          color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+          .container {
+                    grid-template-columns: auto auto auto auto;
+          }
+
+          .Danial,
+          .jeanette,
+          .jonathan,
+          .kira,
+          .patrik {
+                    width: 100%;
+          }
+
+          .Danial {
+                    transform: translateX(-10px);
+                    margin-top: 0px;
+          }
+
+          .jonathan {
+                    transform: translateY(500px) translateX(-245px);
+                    width: 70vw;
+          }
+
+          .jeanette {
+                    transform: translateX(-550px) translateY(850px);
+                    width: 70vw;
+                    height: 300px;
+          }
+
+          .patrik {
+                    transform: translateY(1250px) translateX(-860px);
+                    width: 70vw;
+                    height: 400px;
+          }
+
+          .kira {
+                    transform: translateY(1150px) translateX(40px);
+                    width: 70vw;
+                    height: 500px;
+          }
+
+          .back {
+                    opacity: 0;
+          }
+
+          .attribution {
+                    transform: translateY(1700px);
+          }
+}
